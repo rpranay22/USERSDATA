@@ -1,0 +1,34 @@
+.items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sub {
+    width: 300px !important;
+}
+
+.card {
+    margin: 5px;
+}
+
+.primary {
+    background-color: rgb(132, 132, 234);
+    margin-top: 5px;
+    ;
+}
+
+.arrange {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-body {
+    margin: 5px;
+    width: 300px;
+    background-color: bisque;
+}
+
+.card {
+    width: 350px;
+}

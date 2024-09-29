@@ -1,0 +1,83 @@
+.loginContainer {
+    background-color: pink;
+    margin-top: 50vh;
+    margin-left: 50vw;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+Link {
+    text-decoration: none;
+}
+
+.log {
+    width: 200px;
+}
+
+.inp1 {
+    margin-top: 10px;
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ent {
+    height: 30px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(132, 125, 125);
+    text-align: left;
+}
+
+.inp2 {
+    margin-top: 10px;
+}
+
+.inp3 {
+
+
+    margin-top: 5px;
+}
+
+.lbtn {
+    width: 200px;
+    background-color: rgb(68, 68, 223);
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.sp {
+    margin-left: 2px;
+
+}
+
+form {
+    align-self: center;
+    padding: 20px;
+
+}
+
+.lbtns {
+    display: block;
+}
+
+.err {
+    color: red;
+}
+
+.center {
+    background-color: bisque;
+    margin-top: 50vh;
+    margin-left: 50vw;
+    transform: translate(-50%, -50%);
+}
