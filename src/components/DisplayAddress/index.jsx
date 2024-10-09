@@ -19,7 +19,7 @@ const DisplayAddress = (props) => {
 
 
     useEffect(() => {
-        axios.post(`http://localhost:3000/getAddress`, data, config)
+        axios.post(`https://usersdata-5.onrender.com/getAddress`, data, config)
             .then(async response => {
                 setArr(response.data.data)
                 console.log("respo...", arr);

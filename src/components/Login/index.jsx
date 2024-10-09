@@ -24,7 +24,7 @@ function Login(props) {
             id: userId, uname: uname, name: name, address: address, date: new Date()
         };
 
-        axios.post('http://localhost:3000/users', data, config)
+        axios.post('https://usersdata-5.onrender.com/users', data, config)
             .then(async response => {
                 console.log(response);
             })
@@ -32,7 +32,7 @@ function Login(props) {
                 console.error('There was an error sending the data!', error);
             });
 
-        axios.post('http://localhost:3000/userdata', data, config)
+        axios.post('https://usersdata-5.onrender.com/userdata', data, config)
             .then(async response => {
                 console.log(response);
 

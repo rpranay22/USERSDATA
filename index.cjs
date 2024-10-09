@@ -42,6 +42,10 @@ app.get('/data', (req, res) => {
   });
 });
 
+app.get("/", (req, res) => {
+  res.send("started");
+})
+
 // Example route to get a specific row by id
 app.post('/getAddress', (req, res) => {
   console.log("body", req.body)
